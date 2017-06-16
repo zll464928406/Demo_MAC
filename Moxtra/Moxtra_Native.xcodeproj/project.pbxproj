@@ -12,7 +12,6 @@
 		A3D76C171EF3B5FA00A8D6EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D76C101EF3B5FA00A8D6EC /* AppDelegate.m */; };
 		A3D76C181EF3B5FA00A8D6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D76C111EF3B5FA00A8D6EC /* Main.storyboard */; };
 		A3D76C191EF3B5FA00A8D6EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D76C141EF3B5FA00A8D6EC /* main.m */; };
-		A3D76C1A1EF3B5FA00A8D6EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D76C161EF3B5FA00A8D6EC /* ViewController.m */; };
 		A3D76C321EF3BAE000A8D6EC /* MXMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D76C301EF3BAE000A8D6EC /* MXMainWindowController.m */; };
 		A3D76C331EF3BAE000A8D6EC /* MXMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D76C311EF3BAE000A8D6EC /* MXMainWindowController.xib */; };
 		A3D76C371EF3BAFE00A8D6EC /* MXLoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D76C351EF3BAFE00A8D6EC /* MXLoginWindowController.m */; };
@@ -27,8 +26,6 @@
 		A3D76C101EF3B5FA00A8D6EC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../Sources/AppDelegate.m; sourceTree = "<group>"; };
 		A3D76C121EF3B5FA00A8D6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3D76C141EF3B5FA00A8D6EC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Sources/main.m; sourceTree = "<group>"; };
-		A3D76C151EF3B5FA00A8D6EC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../Sources/ViewController.h; sourceTree = "<group>"; };
-		A3D76C161EF3B5FA00A8D6EC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../Sources/ViewController.m; sourceTree = "<group>"; };
 		A3D76C2F1EF3BAE000A8D6EC /* MXMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXMainWindowController.h; sourceTree = "<group>"; };
 		A3D76C301EF3BAE000A8D6EC /* MXMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXMainWindowController.m; sourceTree = "<group>"; };
 		A3D76C311EF3BAE000A8D6EC /* MXMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXMainWindowController.xib; sourceTree = "<group>"; };
@@ -55,8 +52,6 @@
 				A3D76C0F1EF3B5FA00A8D6EC /* AppDelegate.h */,
 				A3D76C101EF3B5FA00A8D6EC /* AppDelegate.m */,
 				A3D76C141EF3B5FA00A8D6EC /* main.m */,
-				A3D76C151EF3B5FA00A8D6EC /* ViewController.h */,
-				A3D76C161EF3B5FA00A8D6EC /* ViewController.m */,
 				A3D76C1B1EF3B63300A8D6EC /* Supporting Files */,
 				A3394B2A1EF3B3C400ECDD90 /* Products */,
 			);
@@ -202,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3D76C1A1EF3B5FA00A8D6EC /* ViewController.m in Sources */,
 				A3D76C371EF3BAFE00A8D6EC /* MXLoginWindowController.m in Sources */,
 				A3D76C321EF3BAE000A8D6EC /* MXMainWindowController.m in Sources */,
 				A3D76C191EF3B5FA00A8D6EC /* main.m in Sources */,
