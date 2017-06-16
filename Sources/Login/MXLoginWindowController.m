@@ -7,8 +7,11 @@
 //
 
 #import "MXLoginWindowController.h"
+#import "MXMainWindowController.h"
 
 @interface MXLoginWindowController ()
+
+@property (nonatomic, strong) MXMainWindowController *mainWindowController;
 
 @end
 
@@ -22,13 +25,21 @@
 - (void)windowDidLoad
 {
     [super windowDidLoad];
+    self.window.title = NSLocalizedString(@"Login", nil);
     
+    self.mainWindowController = [[MXMainWindowController alloc] init];
+}
+
+-(void)dealloc
+{
+    self.mainWindowController = nil;
 }
 
 #pragma mark - User Action
 - (IBAction)loginButtonClicked:(id)sender
 {
-    
+    [self.window close];
+    [self.mainWindowController showWindow:nil];
 }
 
 @end

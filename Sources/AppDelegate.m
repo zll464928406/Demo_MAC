@@ -23,9 +23,14 @@
     [self.loginWindowController showWindow:nil];
 }
 
+-(BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag
+{
+    return YES;
+}
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
+    
 }
 
 
